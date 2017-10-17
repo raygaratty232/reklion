@@ -38,6 +38,12 @@ var search = document.getElementById('search-btn');
         // console.log(searcBtn);
     });
 
+var toogleMedia = document.querySelector('.toogle-media')
+    toogleMedia.addEventListener('click', function (e){
+        e.preventDefault();
+        var dropMedia = document.querySelector('.drop-media');
+        dropMedia.classList.toggle('media-active');
+    });
 
   
 
