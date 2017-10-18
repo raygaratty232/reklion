@@ -30,6 +30,13 @@ $('.articles-slider').slick({
     prevArrow: '<a href="#" class="red-right"><img src="red-right.png" alt=""></a>'
 });	
 
+$('.services-slider').slick({
+    autoplaySpeed: 2000,
+    arrows: false,
+    mobileFirst: true,
+    swipeToSlide: true,
+    centerPadding: '20px',
+});
 
 var search = document.getElementById('search-btn');
     search.addEventListener('click', function(){
