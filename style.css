@@ -1301,7 +1301,7 @@ nav{
 	display: flex;
 }
 .experience-left{
-	width: 150px;
+	width: 169px;
 	height: 160px;
 	border-right: 1px solid #e9ecef;
 }
@@ -2142,6 +2142,15 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+.who-caption{
+    position: absolute;
+    left: 253px;
+    top: 40px;
+}
+.who-caption h2{
+    font-size: 14px;
+    font-family: GothamPro;
+}
 .who-item{
     width: 40%;
     display: flex;
@@ -2168,8 +2177,8 @@ nav{
     padding-top: 8%;
 }
 .application h2{
-    font-size: 14px;
-    font-family: Calibri;
+    font-size: 16px;
+    font-family: GothamPro;
     margin-bottom: 5%;
 }
 .application-btn{
@@ -2352,6 +2361,15 @@ nav{
 /*services-end*/
 
 /*media*/
+@media only screen and (max-width: 1095px){
+    .video{
+        width: 860px;
+    }
+    .cup{
+        margin: auto;
+        margin-top: 0;
+    }
+}
 @media only screen and (max-width: 768px){
 	.menu{
 		display: none;
@@ -2396,7 +2414,7 @@ nav{
         max-width: 570px;
         min-height: 60px;
         margin: auto;
-        padding-top: 5%;
+        margin-top: 5%;
         position: relative;
     }
     .media-search input{
@@ -2411,7 +2429,7 @@ nav{
         border: none;
         position: absolute;
         right: 0px;
-        top: 34px;
+        top: 0px;
         width: 40px;
         height: 59px;
     }
@@ -2879,6 +2897,9 @@ nav{
     .faq{
         padding-top: 0;
     }
+    .franchise-block h2::before{
+        display: none;
+    }
     .toogle-franchise.media-active{
         display: block;
     }
@@ -2933,6 +2954,9 @@ nav{
     .who-item{
         flex-basis: 270px;
     }
+    .who-caption{
+        top: 0px;
+    }
 }
 @media only screen and (max-width: 460px){
     .services-caption h2{
@@ -2965,10 +2989,6 @@ nav{
     .view-services{
         bottom: 120px;
         left: 20px;
-    }
-    .media-search button{
-        right: 1px;
-        top: 21px;
     }
     .view-services {
         bottom: 120px;
@@ -3091,6 +3111,9 @@ nav{
     /**/
     .left{
         padding-left: 10%;
+    }
+    .who-caption{
+        display: none;
     }
 }   
 @media only screen and (max-width: 320px){
