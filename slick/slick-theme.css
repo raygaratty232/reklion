@@ -234,8 +234,9 @@
         .quote-sl{
         width: 1065px;
     }
-    .quote-sl-text {
+        .quote-sl-text{
         top: 100px;
-        left: 10px;
+        left: 20px;
+        padding: 0;
     }
 }

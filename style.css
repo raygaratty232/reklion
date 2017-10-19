@@ -2577,11 +2577,6 @@ nav{
     .quote-sl{
         width: 900px;
     }
-    .quote-sl-text {
-        top: 50px;
-        left: 140px;
-        padding: 15px;
-    }
 	.red-right,
 	.slick-arrow{
 		display: none;
@@ -3037,13 +3032,13 @@ nav{
     .quote-sl{
         width: 1065px;
     }
-    .quote-sl-text {
+    .quote-sl-text{
         top: 100px;
         left: 0px;
         padding: 0;
     }
     .quote-sl-text p{
-        font-size: 17px;
+        font-size: 16px;
         text-align: center;
     }
     .write-p{
