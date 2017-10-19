@@ -2170,7 +2170,7 @@ nav{
 }
 .faq-caption h4{
     font-size: 14px;
-    font-family: Calibri;
+    font-family: GothamPro;
     text-transform: uppercase;
 }
 .application{
@@ -3039,7 +3039,8 @@ nav{
     }
     .quote-sl-text {
         top: 100px;
-        left: 10px;
+        left: 0px;
+        padding: 0;
     }
     .quote-sl-text p{
         font-size: 17px;
@@ -3114,6 +3115,16 @@ nav{
     }
     .who-caption{
         display: none;
+    }
+    .who{
+        min-height: 440px;
+    }
+    .faq-caption{
+        display: block;
+    }
+    .faq-caption h4{
+        text-align: center;
+        padding-top: 5%;
     }
 }   
 @media only screen and (max-width: 320px){
