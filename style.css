@@ -3038,6 +3038,9 @@ nav{
         height: 210px;
         padding: 5%;
     }
+    .work-page-left{
+        display: none;
+    }
     .inside-left{
         display: none;
     }
