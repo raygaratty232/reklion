@@ -1742,8 +1742,19 @@ nav{
     background-repeat: no-repeat;
     background-position-y: 50px;
     padding-top: 40px;  
-    
-}.work-img img{
+}
+/*.work-img{
+    background-image: url('img/work-item-1.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 982px;
+    height: 232px;
+}*/
+.img-none{
+    display: none;
+}
+.work-img img{
     position: relative;
     max-width: 100%;
 }
@@ -3046,6 +3057,21 @@ nav{
     }
     .inside-right{
         min-height: 1529px;
+    }
+    .work-img h2{
+        left: 20px;
+    }
+    .img-none{
+        display: block;
+    }
+    .media-img-none{
+        display: none;
+    }
+    .work-page-right{
+        height: 1440px;
+    }
+    .work-item{
+        height: 430px;
     }
     /*partners*/
     .partners-block{
