@@ -20,6 +20,7 @@ var sideToggle = document.getElementById('side-toggle')
 $('.quote-slider').slick({
     autoplay: true,
     autoplaySpeed: 2000,
+    variableWidth: true,
 });
 
 $('.articles-slider').slick({
@@ -38,6 +39,7 @@ $('.services-slider').slick({
     centerPadding: '20px',
 });
 
+
 var search = document.getElementById('search-btn');
     search.addEventListener('click', function(){
         var searcBtn = document.getElementById('search-in')
@@ -54,4 +56,7 @@ var toogleMedia = document.querySelector('.toogle-media')
 
   
 
+$('.toogle-franchise').click(function(){
+    $(this).next('.drop-franchise').toggle();
+})
    
