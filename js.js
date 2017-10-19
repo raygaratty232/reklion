@@ -18,7 +18,7 @@ var sideToggle = document.getElementById('side-toggle')
 
 
 $('.quote-slider').slick({
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     variableWidth: true,
 });
