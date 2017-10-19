@@ -187,8 +187,8 @@ nav{
 }
 .social-about img{
     display: block;
-    width: 10px;
-    height:14px;
+    width: 17px;
+    height:17px;
     margin-bottom: 40px;
 }
 .about-right{
@@ -212,19 +212,30 @@ nav{
 .common-text{
     -ms-flex-preferred-size: 690px;
         flex-basis: 690px;
-    margin-top: 80px;
+    margin-top: 30px;
+}
+.common-text h2{
+    font-family: GothamPro;
+    font-size: 30px;
+}
+.common-text p{
+    font-family: Calibri;
+    font-size: 16px;
 }
 .text{
     padding-top: 50px;
 }
+.text{
+    font-family: Calibri;
+} 
 .about-caption h2{
     font-size: 40px;
-    font-family: GothamPro sans-serif;
+    font-family: GothamPro;
     text-transform: uppercase;
 }
 .common p{
     font-size: 16px;
-    font-family: Calibri, sans-serif;
+    font-family: Calibri;
 }
 .search{
     position: absolute;
@@ -630,7 +641,7 @@ nav{
 	font-weight: bold;
 }
 .services{
-	max-width: 100%;
+	max-width: 1340px;
 	min-height: 660px;
 	background-image: url(img/services-bg.jpg);
 	background-size: cover;
@@ -641,6 +652,10 @@ nav{
 }
 .tab-block{
 	margin-top: 20%;
+    max-width: 460px;
+}
+.services-caption{
+    width: 80%;
 }
 .services-caption h2{
 	font-size: 70px;
@@ -651,7 +666,7 @@ nav{
 	font-family: GothamPro;
 }
 .services-text{
-	width: 440px;
+	width: 100%;
 	padding-top: 10%;
 }
 .services-button{
@@ -872,6 +887,7 @@ nav{
 	font-size: 16px;
 	color: #fff;
 	padding-top: 11%;
+    font-family: Calibri;
 }
 .form-button{
 	position: absolute;
@@ -1855,6 +1871,11 @@ nav{
     text-transform: uppercase;
     font-family: GothamPro;
     font-weight: bold;
+    margin-top: 0;
+}
+.mass-media p{
+    font-size: 16px;
+    font-family: Calibri;
 }
 .view{
     width: 140px;
@@ -1871,6 +1892,7 @@ nav{
 }
 .view a:hover{
     color: #fff;
+    text-decoration: none;
 }
 .articles{
     display: flex;
@@ -1913,10 +1935,17 @@ nav{
     justify-content: space-around;
     padding-top: 88px;
 }
-.sorting a{
+.sorting li{
     font-size: 12px;
     font-family: GothamPro;
     position: relative;
+}
+.sorting a{
+    position: relative;
+    color: #4dadf7;
+}
+.sorting a:hover{
+    color: #4dadf7;
 }
 .sorting a:after{
     content: '';
@@ -2197,6 +2226,14 @@ nav{
 .services-page-ul img{
     display: block;
 }
+.services-page-text p{
+    font-family: Calibri;
+    font-size: 16px;
+}
+.services-title h2{
+    font-size: 30px;
+    font-family: GothamPro;
+}
 .tab-a{
     display: block;
     text-align: center;
@@ -2455,7 +2492,7 @@ nav{
 		margin: auto;
 	}
 	.about-tex-p p{
-		font-size: 16px;
+		font-size: 15px;
 		font-family: Calibri;
 	}
 	.cup img{
@@ -2490,6 +2527,8 @@ nav{
 	}
 	.advantages-text-right p{
 		width: 100%;
+        height: 445px;
+        font-size: 15px;
 	}
 	.first-p{
     	padding: 0 2%;
@@ -2514,6 +2553,14 @@ nav{
 	.articles-slider{
 		min-height: 450px;
 	}
+    .quote-sl{
+        width: 900px;
+    }
+    .quote-sl-text {
+        top: 50px;
+        left: 140px;
+        padding: 15px;
+    }
 	.red-right,
 	.slick-arrow{
 		display: none;
@@ -2537,7 +2584,7 @@ nav{
 	}
 	.write-text{
     	width: 100%;
-    	height: 250px;
+    	height: 300px;
     	margin-top: -100px;
     	margin-left: 2%;
 	}
@@ -2655,12 +2702,12 @@ nav{
 	.command-left{
 		display: none;
 	}
-	#none{
-		display: none;
-	}
 	.advantages-page{
 		display: none;
 	}
+    .none{
+        display: none;
+    }
 	/*goodDeed*/
 	.goodDeed-container-left{
 		display: none;
@@ -2748,6 +2795,7 @@ nav{
     .work-ul{
         display: block;
         height: 210px;
+        padding: 5%;
     }
     .inside-left{
         display: none;
@@ -2805,6 +2853,7 @@ nav{
     .articles-inside-text,
     .articles-inside-img{
         max-width: 100%;
+        padding: 0 5%;
     }
     .articles-inside-p {
         padding: 37px;
@@ -2827,12 +2876,21 @@ nav{
     .faq{
         padding-top: 0;
     }
-    .toogle-media.media-active{
+    .toogle-franchise.media-active{
         display: block;
     }
     .franchise{
         max-width: 670px;
         margin: auto;
+    }
+    .drop-franchise{
+        display: none;
+    }
+   .toogle-franchise.franchise-active{
+        display: block;
+    }
+        .toogle-franchise{
+        cursor: pointer;
     }
     /*services*/
     .services-container{
@@ -2847,9 +2905,38 @@ nav{
     .services-container{
         padding-left: 5%;
     }
+    .franchise-block{
+        width: 100%;
+        height: 90px;
+        background-color: #fcfcfc;
+        margin: auto;
+    }
+    .franchise-block h2{
+        padding-top: 5%;
+        text-align: center;
+    }
+    .franchise-block h3{
+        padding-top: 5%;
+        text-align: center;
+        cursor: pointer;
+    }
+    .franchise-block p{
 
+    }
 }
 @media only screen and (max-width: 460px){
+    .services-caption h2{
+        font-size: 60px;
+    }
+    .services-caption h3{
+        font-size: 20px;
+    }
+    .services-text p{
+        font-size: 14px;
+    }
+    .tab-block{
+        padding: 0 10px;
+    }
     .clients-item-bot{
         display: none;
     }
@@ -2869,6 +2956,65 @@ nav{
         bottom: 120px;
         left: 20px;
     }
+    .media-search button{
+        right: 1px;
+        top: 21px;
+    }
+    .view-services {
+        bottom: 120px;
+        left: 100px;
+    }
+    .advantages-text-right{
+        margin-top: 30px;
+    }
+    .articles-caption{
+        padding-left: 5%;
+    }
+    .articles-right{
+        position: relative;
+    }
+    .services-tab{
+        position: relative;
+    }
+    .viev-serv{
+        position: absolute;
+        bottom: 20px;
+        left: 58px;
+        z-index: 5;
+    }
+    .tab-block{
+        padding-top: 0;
+    }
+    .list-tabs ul{
+        padding-top: 0;
+    }
+    .gray-line::after{
+        display: none;
+    }
+    .viev-serv a::before{
+        display: none;
+    }
+    .view-services a::before{
+        display: none;
+    }
+    .get{
+        padding: 0;
+        position: absolute;
+        bottom: 57px;
+        left: 120px;
+        z-index: 5;
+    }
+    .quote-sl{
+        width: 1065px;
+    }
+    .quote-sl-text {
+        top: 100px;
+        left: 10px;
+    }
+    .quote-sl-text p{
+        font-size: 17px;
+        text-align: center;
+    }
     .write-p{
         padding: 1%;
         height: 160px;
@@ -2879,11 +3025,15 @@ nav{
     #side-toggle{
         padding-right: 15%;
     }
+    .experience-text{
+        padding-left: 17%;
+        padding-top: 14%;
+    }
     /*command*/
     .team-item{
         width: 50%;
     }
-    .hide{
+    .none-two{
         display: none;
     }
     /*.customers*/
@@ -2909,6 +3059,9 @@ nav{
     .unique-btn{
         width: 100%;
     }
+    .unique-caption h2{
+        font-size: 32px;
+    }
     /**/
     .sorting{
         width: 100%;
@@ -2925,4 +3078,19 @@ nav{
     .btn-articles{
         padding-top: 15%;
     }
+    /**/
+    .left{
+        padding-left: 10%;
+    }
 }   
+@media only screen and (max-width: 320px){
+    .quote-sl-text p{
+        font-size: 14px;
+    }
+    .articles-caption h2{
+        font-size: 29px;
+    }
+    .articles-text{
+        height: 275px;
+    }
+}
