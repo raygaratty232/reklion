@@ -74,11 +74,11 @@ var toogleMedia = document.querySelector('.toogle-media')
  //    });
  //  });
 
-  $( ".toogle-franchise" ).click(function() {
-  $(".drop-franchise").toggle( "slow", function() {
+//   $( ".toogle-franchise" ).click(function() {
+//   $(".drop-franchise").toggle( "slow", function() {
    
-  });
-});  
+//   });
+// });  
  
 //  $( ".drop-franchise" ).click(function() {
 //     this.next(".toogle-franchise").toggle("slow", function() {

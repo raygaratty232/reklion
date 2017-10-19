@@ -2883,9 +2883,9 @@ nav{
         max-width: 670px;
         margin: auto;
     }
-    .drop-franchise{
+    /*.drop-franchise{
         display: none;
-    }
+    }*/
    .toogle-franchise.franchise-active{
         display: block;
     }
@@ -2905,7 +2905,7 @@ nav{
     .services-container{
         padding-left: 5%;
     }
-    .franchise-block{
+/*    .franchise-block{
         width: 100%;
         height: 90px;
         background-color: #fcfcfc;
@@ -2922,7 +2922,7 @@ nav{
     }
     .franchise-block p{
 
-    }
+    }*/
 }
 @media only screen and (max-width: 460px){
     .services-caption h2{
