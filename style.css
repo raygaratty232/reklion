@@ -748,6 +748,16 @@ nav{
     -ms-flex-pack: distribute;
         justify-content: space-around;
 }
+.svg{
+    width: 70px;
+    height: 70px;
+}
+.svg:hover{
+    fill: #ea2e49;
+}
+.active .svg{
+    fill: #e61740;
+}
 .list-tabs ul{
     width: 210px;
     height: 680px;
@@ -762,10 +772,12 @@ nav{
     height: 640px;
     position: absolute;
     top: 30px;
-    right: -23px;
+    right: 25px;
 }
 .list-tabs li{
-    padding-top: 20%;
+    padding-top: 20px;
+    width: 80px;
+    height: 140px;
 }
 #horse{
     padding-left: 38%;
@@ -780,8 +792,12 @@ nav{
     display: block;
     text-align: center;
 }
+.active .list-tabs a{
+    color: #96908e;
+}
 .list-tabs a:hover{
     color: #8d8d8d;
+    text-decoration: none;
 }
 .list-tabs img{
     display: block;
@@ -2440,6 +2456,18 @@ nav{
         flex-wrap: wrap;
     min-height: 120px;
 }
+.services-page-ul li{
+    width: 80px;
+    height: 140px;
+}
+.services-page-ul a{
+    display: block;
+    text-align: center;
+    color: #96908e;
+}
+.services-page-ul a:hover{
+    color: #96908e;
+}
 .services-page-tabs-caption{
     height: 155px;
 }
@@ -2566,10 +2594,16 @@ nav{
     color: #fff;
     text-decoration: none;
 }
-.active .tab-a{
+.active .target-tab{
     color: #ea324d;
     text-decoration: none;
 }
+/*.active .svg{
+    fill: #ea324d;
+}*/
+/*.svg:focus{
+    fill: #e61740;
+}*/
 .active .tab-a:after{
     content: '';
     display: block;
