@@ -183,14 +183,19 @@ nav{
     bottom: 10px;
     right: 60px;
 }
-.about-tex{
-    display: none;
+.social-icon{
+    display: block;    
 }
-.social-about img{
-    display: block;
+.social-icon:hover{
+    fill: #ea2e49;;
+}
+.svg-icon{
     width: 17px;
     height:17px;
     margin-bottom: 40px;
+}
+.about-tex{
+    display: none;
 }
 .about-right{
     max-width: 1264px;
@@ -759,7 +764,7 @@ nav{
     fill: #e61740;
 }
 .list-tabs ul{
-    width: 210px;
+    width: 190px;
     height: 680px;
     padding-top: 70px;
     position: relative;
@@ -1009,7 +1014,7 @@ nav{
     display: block;
 }
 .all-social a{
-    padding-bottom: 36px;
+    padding-bottom: 0;
     display: block;
 }
 .contacts-content-right{
@@ -1215,20 +1220,22 @@ nav{
 }
 .command-left{
     width: 150px;
-    height: 1970px;
+    height: 1760px;
     border-right: 1px solid #e9ecef;
 }
 .command-right{
     width: 100%;
 }
 .command-caption{
-    max-width: 264px;
-    min-height: 170px;
+    max-width: 284px;
+    min-height: 110px;
     margin-left: 14%;
 }
 .command-caption h2{
     margin: 0;
     padding-top: 25%;
+    font-size: 30px;
+    font-family: GothamPro;
 }
 #card{
     padding-top: 0;
@@ -1243,7 +1250,7 @@ nav{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 130px;
+    padding-top: 50px;
 }
 .team-item{
     width: 222px;
@@ -1355,6 +1362,12 @@ nav{
     background-color: #ea2e49;
      -webkit-box-shadow: 1px 1px 10px 8px #f9bec2;
             box-shadow: 1px 1px 10px 8px #f9bec2;
+}
+.cup-bottom-button:hover{
+    background-color: #ff3352;
+}
+.cup-bottom-button:active {
+    background-color: #e61740;
 }
 .cup-bottom-button a{
     display: block;
@@ -1929,8 +1942,8 @@ nav{
     display: flex;
 }
 .partners-left{
-    width: 139px;
-    height: 800px;
+    width: 150px;
+    height: 820px;
     border-right: 1px solid #e9ecef;
 }
 .partners-right{
@@ -1942,7 +1955,7 @@ nav{
     margin: auto;
 }
 .partners-caption{
-    height: 170px;
+    height: 115px;
 }
 .partners-caption h2{
     text-transform: uppercase;
@@ -2416,6 +2429,9 @@ nav{
             box-shadow: 1px 1px 10px 8px #f9bec2;
     margin: auto;
 }
+.application-btn:hover {
+    background-color: #ff3352;
+}
 .application-btn a{
     display: block;
     text-align: center;
@@ -2423,8 +2439,12 @@ nav{
     font-family: Calibri;
     line-height: 60px;
 }
+.application-btn:active {
+    background-color: #e61740;
+}
 .application-btn a:hover{
     color: #fff;
+    text-decoration: none;
 }
 /*franchise-end*/
 
@@ -2503,7 +2523,7 @@ nav{
     background-color: #fff6f2;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 2% 5% 5% 18%;
+    padding: 2% 5% 3% 18%;
     position: absolute;
     left: 0;
 }
@@ -2523,11 +2543,11 @@ nav{
     padding-top: 1%;
 }
 .unique-services{
-    padding-top: 77%;
+    padding-top: 70%;
 }
 .unique-caption{
     max-width: 100%;
-    min-height: 215px;
+    min-height: 195px;
 }
 .unique-caption h2{
     font-size: 40px;
@@ -2841,6 +2861,9 @@ nav{
     }
     .articles-slider{
         min-height: 450px;
+    }
+    .list-tabs ul{
+        width: auto;
     }
     .quote-sl{
         width: 900px;
