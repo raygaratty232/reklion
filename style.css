@@ -764,10 +764,12 @@ nav{
     fill: #e61740;
 }
 .list-tabs ul{
-    width: 190px;
+    width: 487px;
     height: 680px;
     padding-top: 70px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 .gray-line:after{
     content: '';
@@ -777,12 +779,13 @@ nav{
     height: 640px;
     position: absolute;
     top: 30px;
-    right: 25px;
+    right: 252px;
 }
 .list-tabs li{
     padding-top: 20px;
     width: 80px;
     height: 140px;
+    margin: 0 70px;
 }
 #horse{
     padding-left: 38%;
