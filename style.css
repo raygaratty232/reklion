@@ -198,7 +198,7 @@ nav{
     display: none;
 }
 .about-right{
-    max-width: 1264px;
+    max-width: 100%;
     min-height: 515px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -329,7 +329,7 @@ nav{
             justify-content: space-between;
 }
 .work-right{
-    width: 1194px;
+    width: 85%;
     min-height: 515px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -424,7 +424,7 @@ nav{
     border-right: 1px solid #e9ecef;
 }
 .advantages-right{
-    max-width: 1134px;
+    max-width: 90%;
     min-height: 515px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -539,7 +539,7 @@ nav{
     font-family: GothamPro;
 }
 .articles{
-    max-width: 1280px;
+    max-width: 100%;
     min-height: 660px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -650,7 +650,7 @@ nav{
     font-weight: bold;
 }
 .services{
-    max-width: 1340px;
+    max-width: 100%;
     min-height: 660px;
     background-image: url(img/services-bg.jpg);
     background-size: cover;
@@ -1511,7 +1511,7 @@ nav{
 }
 .goodDeed-top{
     min-height: 450px;
-    max-width: 1340px;
+    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1527,7 +1527,7 @@ nav{
 .goodDeed-social{
     position: absolute;
     position: absolute;
-    bottom: 0px;
+    bottom: 320px;
     left: 90px;
 }
 .goodDeed-social img{
@@ -2350,7 +2350,7 @@ nav{
     padding-top: 2%;
 }
 .who{
-    max-width: 1340px;
+    max-width: 100%;
     height: 400px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2546,7 +2546,7 @@ nav{
     padding-top: 1%;
 }
 .unique-services{
-    padding-top: 70%;
+    padding-top: 60%;
 }
 .unique-caption{
     max-width: 100%;
